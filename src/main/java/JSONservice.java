@@ -23,7 +23,7 @@ public class JSONservice {
    String getDrawing(String str) {
 
         int width = 100;
-        int height = 300;
+        int height = 3000;
 
         //BufferedImage image = ImageIO.read(new File("/Users/mkyong/Desktop/logo.jpg"));
         BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
